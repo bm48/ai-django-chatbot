@@ -1,6 +1,6 @@
 # Dynamic AI Chatbot with Custom Training Sources
 ## Customizable-gpt-chatbot
-This project is a dynamic AI chatbot that can be trained from various sources, such as PDFs, documents, websites, and YouTube videos. It uses a user system with social authentication through Google, and the Django REST framework for its backend. The chatbot leverages OpenAI's GPT-3.5 language model to conduct conversations and is designed for scalability and ease of use.
+This project is a dynamic AI chatbot that can be trained from various sources, such as PDFs, documents, websites, and YouTube videos. It uses a user system with social authentication through Google, and the Django REST framework for its backend. The chatbot leverages OpenAI to conduct conversations and is designed for scalability and ease of use.
 
 ## Features
 - Train chatbot from multiple sources (PDFs, documents, websites, YouTube videos)
@@ -44,7 +44,7 @@ This project is a dynamic AI chatbot that can be trained from various sources, s
 - Integration with popular messaging platforms and chat applications
 
 ## How to run
-- Clone the repository. `git clone https://github.com/shamspias/customizable-gpt-chatbot`
+- Clone the repository. `git clone https://github.com/bm48/ai-django-chatbot`
 - Install the required packages by running `pip install -r requirements.txt`
 - Run celery `celery -A config worker --loglevel=info`
 - Run the command `python manage.py runserver`
